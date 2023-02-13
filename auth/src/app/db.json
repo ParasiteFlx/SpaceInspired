@@ -1,0 +1,56 @@
+{
+  "register": [
+    {
+      "email": "paltenie.adrian@yahoo.com",
+      "firstName": "Adrian",
+      "lastName": "Paltenie",
+      "password": "paparuda",
+      "checkPassword": "paparuda",
+      "nickname": "ParasiteFlx",
+      "phoneNumberPrefix": "+40",
+      "phoneNumber": "787813067",
+      "agree": true,
+      "id": 1
+    },
+    {
+      "email": "ionutel@yahoo.com",
+      "firstName": "Ionut",
+      "lastName": "Cancioc",
+      "password": "celmaitare",
+      "checkPassword": "celmaitare",
+      "nickname": "Ionutz",
+      "phoneNumberPrefix": "+40",
+      "phoneNumber": "732146432",
+      "agree": true,
+      "id": 2
+    },
+    {
+      "email": "bucks@gmail.com",
+      "firstName": "Bobby",
+      "lastName": "Portis",
+      "password": "champions",
+      "checkPassword": "champions",
+      "nickname": "Bbobby",
+      "phoneNumberPrefix": "+40",
+      "phoneNumber": "079944321",
+      "agree": true,
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "id": "0",
+      "projectName": "Altair Project 1eer",
+      "startDate": "Mon Feb 13 2023 01:02:05 GMT+0200 (Eastern European Standard Time)",
+      "finalDate": "Type the final here!",
+      "results": "Type  the results here!"
+    },
+    {
+      "id": "1",
+      "projectName": "Altair Project",
+      "startDate": "Mon Feb 13 2023 01:03:44 GMT+0200 (Eastern European Standard Time)",
+      "finalDate": "Type the final date here!",
+      "results": "Type  the results here!"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<app-background></app-background>
+<div class = "fade-in">
+<form nz-form [formGroup]="validateForm" class="login-form" (ngSubmit)="submitForm()">
+   
+    <nz-form-item>
+      <nz-form-control nzErrorTip="Please input your username or email!">
+        <nz-input-group nzPrefixIcon="user"> 
+          <input type="text" nz-input formControlName="userName" placeholder="Username or email" class="username"/>
+        </nz-input-group>
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+      <nz-form-control nzErrorTip="Password must be at least 6 characters long!">
+        <nz-input-group nzPrefixIcon="lock">
+          <input type="password" nz-input formControlName="password" placeholder="Password" class = "password"/>
+        </nz-input-group>
+      </nz-form-control>
+    </nz-form-item>
+    
+    <div nz-row class="login-form-margin">
+      <div nz-col [nzSpan]="12">
+        <label nz-checkbox formControlName="remember">
+          <span class = rememberText>Remember me</span>
+        </label>
+      </div>
+      <div nz-col [nzSpan]="12">
+        <a class="login-form-forgot">Forgot password</a>
+      </div>
+    </div>
+    <button nz-button class="login-form-button login-form-margin" [nzType]="'primary'">Log in</button>
+    <div class = "register-now">
+         Or
+        <a routerLink = "/registration">register now!</a>
+    </div>
+   
+  </form>
+</div>
